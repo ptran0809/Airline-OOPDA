@@ -1,4 +1,4 @@
-package airline_v1;
+package Airline_v1;
 
 /**
  * Route.java is a class which represents the details of an Airplane Route.

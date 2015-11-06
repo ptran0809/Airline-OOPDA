@@ -1,3 +1,5 @@
+package Airline_v1;
+
 /**
  * 
  * FirstClassSeat subclass of Seat

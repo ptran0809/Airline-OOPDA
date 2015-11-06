@@ -1,3 +1,4 @@
+
 /**
  * 
  * CoachClassSeat subclass of Seat
@@ -6,6 +7,8 @@
  * @author Phong Tran
  *
  */
+
+package Airline_v1;
 public class CoachClassSeat extends Seat{
 	private double priceFaction;
 

@@ -4,7 +4,7 @@
  * @version 2015.10.16
  */
 
-package airline_v1;
+package Airline_v1;
 
 public class MemberPassenger extends Passenger {
 
