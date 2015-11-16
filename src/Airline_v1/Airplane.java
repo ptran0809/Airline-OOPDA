@@ -1,11 +1,22 @@
 package Airline_v1;
 
+import java.util.ArrayList;
+
 public abstract class Airplane {
 	protected int id;
 	protected String flighNo;
 	protected int numberofSeat;
 	protected int numberofSeatPerRow;
+	protected ArrayList<Seat> seats;
 	protected int[] exitsRow;
+	protected Route route;
+	public Route getRoute() {
+		return route;
+	}
+
+	public void setRoute(Route route) {
+		this.route = route;
+	}
 	protected static int NEXTID = 1;
 	public int getId() {
 		return id;
@@ -35,6 +46,18 @@ public abstract class Airplane {
 	public void setExitsRow(int[] exitsRow) {
 		this.exitsRow = exitsRow;
 	}
+	public int getNumberOfRow(){
+		return this.numberofSeat/this.numberofSeatPerRow;
+	}
+	
+	public ArrayList<Seat> getSeats() {
+		return seats;
+	}
+
+	public void setSeats(ArrayList<Seat> seats) {
+		this.seats = seats;
+	}
+
 	public abstract void loadSeat();
 	
 
